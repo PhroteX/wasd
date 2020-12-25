@@ -1,0 +1,23 @@
+{
+  "name": "wasdbot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dabi-images": "^2.7.5",
+    "discord.js": "^12.5.1",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "parse-ms": "^2.1.0",
+    "proton-io": "^0.1.5",
+    "superagent": "^6.1.0",
+    "wio.db": "^4.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "PhroteX",
+  "license": "ISC"
+}
