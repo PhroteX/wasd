@@ -2,7 +2,9 @@ const Discord = require('discord.js');
 const DabiImages = require("dabi-images");
 const DabiClient = new DabiImages.Client();
 const data = require('wio.db');
-
+const client = new Discord.Client();
+const DBL = require("dblapi.js");
+const dbl = new DBL('DBL TOKEN', client);
 
 
 module.exports = {
@@ -14,8 +16,7 @@ module.exports = {
     //Komutun herkese açık mı,
     //ya da sadece geliştiricilere özel mi olduğunu belirtirsiniz.
     run: async (message,args,client) => {
-   
-        if(message.author.id === "754927155493732352"){
+   if(message.author.id === "754927155493732352"){
             
             
             if(await data.fetch(`slm.${message.author.id}.${message.guild.id}.ass`)) return message.channel.send(new Discord.MessageEmbed().setColor('#00001').setDescription(`**10 saniyenin altında hızlı kullanamazsın!**`));
@@ -38,14 +39,11 @@ module.exports = {
                 }, 10000);
                 })
                 }
+     
+   }
 
-            }
+            
 
         
 
-        
-        
-  
-    }
-
-
+                                             }

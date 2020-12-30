@@ -300,6 +300,12 @@ client.on("message", async message => {
 
 //Reklam-engel
 
+//Oynuyora site
+
+
+
+//oynuyora site
+
 client.on('message', async(msg) => {
 
     if(!await db.has("prefix_" + msg.guild.id)) {
@@ -313,4 +319,4 @@ client.on('message', async(msg) => {
 
 
 
-client.login("Nzg3OTU1NzQxMjU2NDUwMDU5.X9ce-A.UFnxE-Hpcexo6jBPuXcksk8YFWQ")
+client.login(process.env.token)

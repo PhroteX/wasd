@@ -3,7 +3,7 @@ module.exports = (client) => {
 
     var oynuyorkısımları = [
     "Prefix: w!",
-    'Beta! ' + client.guilds.cache.size + ' sunucu ve ' + client.users.cache.size + ' kullanıcıya hizmet veriyorum!',
+    'w!oy | Oy Verebilirsiniz!',
     "w!yardım | Yardım alabilirsiniz.",
     "PhroteX Tarafından <3 İle Hazırlanıyor.",
     "Ticket Sistemi Eklendi! Detaylı Bilgi İçin : w!yardım",

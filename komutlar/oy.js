@@ -1,19 +1,19 @@
 const Discord = require("discord.js");
 
 module.exports = {
-    name: "site",
-    aliases: ["website","websitesi"],
+    name: "oy",
+    aliases: ["oyver","vote"],
     description: "Web sitesine gider",
-    usage: "site",
+    usage: "oy",
     ownerOnly: false,
     //Komutun herkese açık mı,
     //ya da sadece geliştiricilere özel mi olduğunu belirtirsiniz.
     run: async (message,args,client) => {
    
    const devtr = new Discord.MessageEmbed()
-  .setTitle("Siteye Gitmek İçin Tıkla") //istediğiniz yazı
+  .setTitle("Oy Sitesine Gitmek İçin Tıkla") //istediğiniz yazı
   .setColor("RANDOM") //renk kodu örn: #2F3136
-  .setURL('https://wasd.phrotex.cf') //site url örn: http://devtr.org
+  .setURL('https://top.gg/bot/787955741256450059/vote') //site url örn: http://devtr.org
   message.channel.send(devtr);   //DevTR
 },
 

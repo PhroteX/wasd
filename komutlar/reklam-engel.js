@@ -3,6 +3,9 @@ const Discord = require("discord.js");
 const ayarlar = require('../ayarlar.json')
 let prefix = ayarlar.prefix
 
+
+
+
 module.exports = {
     name: "reklam-engel",
     aliases: ["reklamengel","reklam-engel"],
